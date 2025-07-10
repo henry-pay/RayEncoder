@@ -95,7 +95,15 @@ This project is licensed under the [Apache 2.0 License](LICENSE)
 
 If you find this repository helpful, please consider citing:
 ```
-
+@inproceedings{
+    title={Conceptualizing Multi-scale Wavelet Attention and Ray-based Encoding for Human-Object Interaction Detection},
+    author={Pay, Quan Bi and Baskaran, Vishnu Monn and Loo, Junn Yong and Wong, KokSheik and See, Simon},
+    booktitle={2025 International Joint Conference on Neural Networks (IJCNN)},
+    pages={to appear},
+    year={2025},
+    organization={IEEE},
+    note={Accepted}
+}
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
