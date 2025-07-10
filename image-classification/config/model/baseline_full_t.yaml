@@ -1,0 +1,35 @@
+backbone:
+  embed_dims:
+    - 32
+    - 48
+    - 64
+  depths:
+    - 6
+    - 6
+  stems:
+    - hi_kernel: 5
+      lo_kernel: 3
+    - hi_kernel: 5
+      lo_kernel: 3
+    - hi_kernel: 5
+      lo_kernel: 3
+  blocks:
+    - hi_kernel: 5
+      lo_kernel: 3
+      drop: 0.0
+    - hi_kernel: 5
+      lo_kernel: 3
+      drop: 0.0
+  rays:
+    - point_no: 12
+      point_scale: 10
+      patch_size: 8
+    - point_no: 12
+      point_scale: 5
+      patch_size: 8
+encoder:
+  point_no: 12
+  point_scale: 3
+  patch_size: 8
+  depth: 1
+prune: true

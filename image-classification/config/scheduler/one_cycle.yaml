@@ -1,0 +1,7 @@
+name: "one_cycle"
+params:
+  warmup_epoch: 20
+  max_lr: 1e-3
+  initial_lr: 5e-7
+  min_lr: 5e-5
+  anneal_strategy: 'cos'

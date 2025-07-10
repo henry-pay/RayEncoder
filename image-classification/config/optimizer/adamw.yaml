@@ -1,0 +1,5 @@
+name: "adamw"
+use_sam: False
+params:
+  lr: 1e-3
+  weight_decay: 0.05

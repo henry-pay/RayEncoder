@@ -1,0 +1,22 @@
+defaults:
+  - dataset: imagenet
+  - model: baseline_full_t
+  - optimizer: adamw
+  - scheduler: one_cycle
+  - _self_
+
+epochs: 300
+torch_seed: 3932350106
+numpy_seed: 1317120339
+random_seed: 2227732981
+distributed: True
+use_amp: True
+update_frequency: 1
+save_frequency: 10
+log_frequency: 20
+max_norm: 0
+model_dir: "checkpoints/saved_models"
+save_prefix: "baseline_imagenet_full_tiny"
+logger_dir: "logs/files"
+load_file: ""
+resume: False
