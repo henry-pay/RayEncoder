@@ -3,6 +3,8 @@
 </div>
 
 <p align="center">
+    <a href="https://arxiv.org/abs/2507.10977" alt="arXiv">
+    <img src="https://img.shields.io/badge/arXiv-2507.10977-b31b1b.svg?style=flat" /></a>
     <a href="https://github.com/henry-pay/RayEncoder/blob/main/LICENSE" alt="license">
         <img src="https://img.shields.io/badge/license-Apache--2.0-%23B7A800" />
     </a>
